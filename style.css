@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.half-width{
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    float: left;
+    height: 100%;
+}
+.half-width img{
+    width: 100%;
+    margin: 50px 0;
+}
+
+/* Navbar Section Design */
+.navbar ul{
+    list-style: none;
+    float: right;
+    padding-right: 50px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 15px 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    position: relative;
+    display: block;
+}
+.navbar ul li a span{
+    content: "";
+    width: 0;
+    position: absolute;
+    border-bottom: 2px solid #222;
+    bottom: -5px;
+    left: 0;
+    transition: .5s ease;
+}
+.navbar ul li a:hover span{
+    width: 100%;
+}
+
+
+/* Main Section Design  */
+.main{
+    clear: both;
+}
+.main .half-width.text{
+    padding: 100px 0;
+}
+.main h1{
+    font-size: 55px;
+    padding: 10px 0;
+}
+.hello{
+    color: #363958;
+}
+.name{
+    color: #FF8367;
+}
+.main p{
+    padding: 10px 0;
+}
+.link-button{
+    margin-top: 20px;
+    padding: 20px 50px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(#F56160,#fa8775);
+    display: inline-block;
+    border: 2px solid #fa8775;
+    transition: .5s ease;
+    border-radius: 8px;
+}
+.link-button:hover{
+    background: none;
+    border: 2px solid #FF8367;
+    color: #FF8367;
+}
+
+
+/* About Section Design  */
+.about{
+    clear: both;
+}
+.about img{
+    margin-bottom: 100px;
+}
+.about h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.about p{
+    line-height: 160%;
+}
+.about i{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* Project Section Design  */
+.project{
+    background: #F8F9FC;
+    clear: both;
+    margin-bottom: 50px;
+    padding: 0 100px;
+    height: 700px;
+}
+.title{
+    color: #363958;
+    text-align: center;
+    font-size: 45px;
+    padding: 80px 0;
+}
+.single-project{
+    width: calc(33% - 60px);
+    float: left;
+    margin: 0 10px;
+    padding: 20px 20px 40px 20px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px #ddd;
+}
+.single-project img{
+    width: 100%;
+}
+.single-project h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #363958;
+}
+.single-project p{
+    line-height: 150%;
+    color: #6C6C6C;
+}
+
+/* Message Area Deasign */
+.message{
+    clear: both;
+    padding:  0 100px;
+}
+.message .title{
+    padding: 50px 0 20px 0 ;
+}
+form{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 50px;
+}
+.form-input{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.form-input label{
+    display: block;
+    padding: 10px 0;
+}
+.form-input input[type = text]{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    height: 100px;
+}
+.message input[type = submit]{
+    padding: 15px 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-image: linear-gradient(#F56160,#fa8775);
+    display: inline-block;
+    border: 2px solid #fa8775;
+    transition: .5s ease;
+    border-radius: 8px;
+}
+.message input[type = submit]:hover{
+    background: none;
+    border: 2px solid #FF8367;
+    color: #FF8367;
+}
+
+/* Chat & Social Section Desgin  */
+.chat-social{
+    clear: both;
+    height: 370px;
+    padding: 80px 100px;
+    background: #F8F9FC;
+}
+.chat{
+    background-image: url('shapes/Group_33094_1.png');
+    background-position: center;
+    background-size: 800px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.chat_wrap{
+    width: 800px;
+    margin: auto;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.chat_wrap h2{
+    width: 50%;
+    float: left;
+    font-size: 35px;
+    color: #fff;
+}
+.chat_wrap button{
+    margin-left: 150px;
+    padding: 15px 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-image: linear-gradient(#F56160,#fa8775);
+    display: inline-block;
+    border: 2px solid #fa8775;
+    transition: .5s ease;
+    border-radius: 8px;
+}
+.chat_wrap button:hover{
+    background: none;
+    border: 2px solid #FF8367;
+    color: #FF8367;
+}
+.social{
+    padding: 50px;
+}
+.social h3{
+    font-size: 20px;
+    text-align: center;
+}
+.social h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social ul{
+    list-style: none;
+    margin: auto;
+    width: 200px;
+}
+.social li{
+    display: inline-block;
+}
+.social li img{
+    width: 45px;
+    margin-left: 15px;
+}
